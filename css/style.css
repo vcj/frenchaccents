@@ -1,0 +1,120 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+
+.countries {
+    fill: darkgray;
+    stroke: dimgray;
+    stroke-width: 1px;
+}
+.regions {
+    fill: darkgray;
+    stroke: dimgray;
+    stroke-width: 1px;
+    stroke-linecap: round;
+}
+.gratLines {
+    fill: none;
+    stroke: lightslategrey;
+    stroke-width: 1px;
+}
+.gratBackground {
+    fill: lightsteelblue;
+}
+.map {
+    border: dimgray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px lightslategrey;
+    margin: 10px 0 0 20px;
+}    
+
+.chartBackground {
+    fill: lightslategrey;
+}
+
+.chart {
+/*    float: right;*/
+    border: dimgray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px lightslategrey;
+    margin: 10px 0 0 20px;
+}
+.chartTitle {
+    fill: ghostwhite;
+    font-family: Gill Sans;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartFrame {
+    fill: lightslategrey;
+    stroke: dimgray;
+    stroke-width: 8px;
+}
+
+.numbers {
+    fill: ghostwhite;
+    font-family: Gill Sans;
+}
+
+.dropdown {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    z-index: 10;
+    font-family: Gill Sans;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid dimgray;
+    box-shadow: 2px 2px 4px dimgray;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.infolabel {
+    margin: 0 20px 0 0;
+    position: absolute;
+    height: 75px;
+    min-width: 100px;
+    color: whitesmoke;
+    background-color: darkcyan;
+    border: solid thin whitesmoke;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 1%;
+    font-weight: bold;
+    font-family: Gill Sans;
+}
+#filler{
+    width: 45%;
+    margin: 10px 0 0 20px;
+    display: inline-block;
+}
+#datainfo{
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: Gill Sans;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 50%;
+}
+#textbottom{
+    margin: 50px 20px 20px 20px;
+    font-size: 24px;
+    padding: 20px;
+    font-family: Gill Sans;
+}
+
